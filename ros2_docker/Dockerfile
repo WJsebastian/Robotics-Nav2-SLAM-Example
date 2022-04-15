@@ -35,7 +35,7 @@ RUN apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E
         /etc/apt/sources.list.d/ros2-latest.list && \
     apt-get update -q && \
     apt-get install -y --no-install-recommends \
-      ros-${ROS_DISTRO}-ros-full \
+      ros-${ROS_DISTRO}-desktop \
       python3-rosdep \
       python3-colcon-common-extensions \
       python3-vcstool \
